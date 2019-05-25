@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.samsung.humanpersonality.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#e6dede">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_send_black_24dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Introvert"
+                android:textColor="#066b0a"
+                android:textSize="40sp"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:background="@drawable/introversion"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:textColor="#ea68159c"
+            android:textSize="20sp"
+            android:text="          Manusia dengan kepribadian introvert cenderung menutup diri dari dunia luar. Tipe ini lebih banyak menghabiskan sebagian besar waktu mereka untuk kegiatan soliter, seperti membaca, menulis, menggunakan komputer, serta lebih menyukai berada dalam kesunyian atau tempat tenang. " />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:textColor="#ea68159c"
+            android:textSize="20sp"
+            android:text="          Mereka analitis sebelum berbicara, merasa kurang nyaman karena terlalu banyak pertemuan dan keterlibatan sosial,  lebih senang bekerja sendirian, serta lebih suka berinteraksi secara 1 on 1 interaction. Keunggulan dari tipe kepribadian ini adalah mereka berpikir dulu sebelum berbicara atau melakukan sesuatu, mereka adalah pendengar yang baik, dan bersikap analitis. "
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:textColor="#ea68159c"
+            android:textSize="20sp"
+            android:text="          Ciri khas dari kepribadian introvert adalah mereka berubah aktif dan berhasrat saat membicarakan sesuatu yang menjadi minatnya. Jadi, kita tidak bisa menjudge seorang introvert sebagai pendiam. Karena mereka bisa menjadi cerewet bahkan melebihi si ekstrovert saat membicarakan apa yang menjadi kesukaannya dengan orang yang tepat.
+"
+            />
+
+        <Button
+            android:layout_marginTop="80dp"
+            android:layout_marginBottom="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tokoh Introvert"
+            android:textColor="#066b0a"
+            android:onClick="tokohIntrovert"
+            android:layout_gravity="center_horizontal" />
+
+
+
+    </LinearLayout>
+
+</ScrollView>
+

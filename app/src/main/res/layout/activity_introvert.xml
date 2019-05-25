@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.samsung.humanpersonality.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#e6dede">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_send_black_24dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="7dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Tokoh Introvert"
+                android:textColor="#066b0a"
+                android:textSize="30sp"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"></LinearLayout>
+        <TextView
+            android:id="@+id/albert"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. Albert Einstein"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="#ea68159c"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="10dp"/>
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="150dp"
+            android:background="@drawable/al"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="33dp"/>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:textColor="#ea68159c"
+            android:textSize="20sp"
+            android:text="          lahir di Ulm, Kerajaan Württemberg, Kekaisaran Jerman, 14 Maret 1879 – meninggal di Princeton, New Jersey, Amerika Serikat, 18 April 1955 pada umur 76 tahun, Adalah seorang ilmuwan fisika teoritis yang dipandang luas sebagai ilmuwan terbesar dalam abad ke-20. Beliau mengemukakan teori relativitas dan juga banyak menyumbang bagi pengembangan mekanika kuantum, mekanika statistika, dan kosmologi. Beliau dianugerahi penghargaan nobel dalam fisika pada tahun 1921 untuk penjelasannya tentang efek fotolistrik dan pengabdiannya bagi fisika teoritis." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAlignment="center"
+            android:layout_marginTop="15dp"
+            android:textColor="#066b0a"
+            android:text="==========================================="
+            />
+
+        <TextView
+            android:id="@+id/mark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. Mark Zuckerberg"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="#ea68159c"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"/>
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="150dp"
+            android:background="@drawable/mark"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="33dp"/>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:textColor="#ea68159c"
+            android:textSize="20sp"
+            android:text="          Mark Elliot Zuckerberg, lahir di White Plains, New York, 14 Mei 1984 (Umur 33 tahun) adalah seorang pemrogram komputer dan pengusaha internet. Ia dikenal karena menciptakan situs jejaring sosial Facebook pada tahun 2004 bersama temannya, yang dengan itu ia menjadi pejabat eksekutif dan presiden. Pada tahun 2010, Zuckeberg terpilih sebagai Person of The Year versi majalah Times hingga 2011, kekayaan pribadinya ditaksir mencapai $17,55 miliar. " />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="15dp"
+            android:textColor="#066b0a"
+            android:text="=========================================="
+            />
+
+        <TextView
+            android:id="@+id/bill"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3. Bill Gates"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="#ea68159c"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"/>
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="150dp"
+            android:background="@drawable/bill"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="33dp"/>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:textColor="#ea68159c"
+            android:textSize="20sp"
+            android:text="          William Henry “Bill” Gates III lahir di Seattle, Washington, 28 Oktober 1955 (Umur 62 tahun). Adalah seorang tokoh bisnis, investor, filantropis, penulis asal amerika Serikat, serta mantan CEO yang saat ini menjabat sebagai ketua Microsoft, perusahaan perangkat lunak yang ia dirikan bersama Paul Allen. Ia menduduki peringkat tetap di antar orang-orang terkaya di dunia dan menempati peringkat pertama sejak 1955 hingga 2009. " />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAlignment="center"
+            android:layout_marginTop="15dp"
+            android:textColor="#066b0a"
+            android:text="==========================================="
+            />
+
+        <TextView
+            android:id="@+id/jk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4. JK Rowling"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="#ea68159c"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"/>
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="150dp"
+            android:background="@drawable/jek"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="33dp"/>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="50dp"
+            android:textColor="#ea68159c"
+            android:textSize="20sp"
+            android:text="          Joanne Kathleen Rowling atau lebih dikenal dengan JK Rowling lahir di Yate, Gloucestershire Utara, Inggris, 31 Juli 1965 (umur 52 tahun). Sebagai seorang ibu tunggal yang tinggal di Edinburgh, Skotlandia. Rowling menjadi sorotan kesusasteraan internasional pada tahun 1999 saat tiga seri pertama novel remaja novel remaja Harry Potter mengambil alih tiga tempat teratas dalam daftar New York Times best-seller setelah memperoleh kemenangan yang samadi Britania Raya. Kekayaan Rowling semakin bertambah saat seri ke-4, Harry Potter dan Piala Api diterbitkan bulan juli tahun 2000. Seri ini menjadi buku paling laris penjualannya dalam sejarah. " />
+
+    </LinearLayout>
+
+</ScrollView>
+

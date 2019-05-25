@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.samsung.humanpersonality.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#e6dede">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_send_black_24dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="7dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Tokoh Ambivert"
+                android:textColor="#066b0a"
+                android:textSize="30sp"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></LinearLayout>
+        <TextView
+            android:id="@+id/diana"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. Princess Diana"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="#ea68159c"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="10dp"/>
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="150dp"
+            android:background="@drawable/dia"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp"/>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:textColor="#ea68159c"
+            android:textSize="20sp"
+            android:text="          Diana, Putri Wales (Diana Frances; née Spencer; 1 Juli 1961 – 31 Agustus 1997) merupakan istri pertama dari Charles, Pangeran Wales, anak sulung dari Ratu Elizabeth II dan juga merupakan pewaris takhta kerajaan Britania Raya dan 15 negara Persemakmuran Inggris. Anak-anaknya, Pangeran William dan Harry masing-masing berada di posisi kedua dan kelima dalam urutan pewarisan takhta tersebut. " />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAlignment="center"
+            android:layout_marginTop="15dp"
+            android:textColor="#066b0a"
+            android:text="==========================================="
+            />
+
+        <TextView
+            android:id="@+id/leo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. Leonardo Dicaprio"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="#ea68159c"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"/>
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="150dp"
+            android:background="@drawable/leo"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="33dp"/>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:textColor="#ea68159c"
+            android:textSize="20sp"
+            android:text="          Leonardo Wilhelm DiCaprio lahir di Los Angeles, 11 November 1974 (umur 43 tahun) adalah seorang aktor Amerika Serikat berdarah Italia-Jerman. Beberapa film yang dibintanginya ialah What's Eating Gilbert Grape, Romeo+Juliet, Titanic (yang merupakan film terlaris sepanjang masa, memborong 11 dari 14 nominasi Academy Awards yang diperebutkan), The Man and Iron Mask, The Beach, Catch Me if You Can, Gangs of New York,dan The Aviator. Film pertamanya ialah Critters 3. " />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+           android:textAlignment="center"
+            android:layout_marginTop="15dp"
+            android:textColor="#066b0a"
+            android:text="==========================================="
+            />
+
+        <TextView
+            android:id="@+id/rowan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3. Rowan Atkinson"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="#ea68159c"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"/>
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="150dp"
+            android:background="@drawable/rowan"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="33dp"/>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:textColor="#ea68159c"
+            android:textSize="20sp"
+            android:text="          Rowan Sebastian Atkinson lahir di Consett Country, 6 januari 1955 (umur 62 tahun) adalah seorang pelawak, pemeran, dan penulis Inggris terkenal karena film seri televisi Blackadder dan Mr. Bean. Menurut The Observer ia adalah salah satu dari 50 orang terlucu di Inggris. Ketika di sekolah, ia sekelas dengan mantan perdana menteri Tonny Blair. Ia kemudian meraih gelar M.Sc dari Queens College, Oxford. " />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+           android:textAlignment="center"
+            android:layout_marginTop="15dp"
+            android:textColor="#066b0a"
+            android:text="==========================================="
+            />
+
+        <TextView
+            android:id="@+id/angel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4. Angelina Jolie"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="#ea68159c"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"/>
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="150dp"
+            android:background="@drawable/angel"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="33dp"/>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="50dp"
+            android:textColor="#ea68159c"
+            android:textSize="20sp"
+            android:text="          Angelina Jolie terlahir dengan nama Angelina Jolie Voight lahir di Los Angeles, 4 Juni 1975 (umur 42 tahun) adalah seorang aktris Amerika Serikat  yang pernah dinominasikan dalam Academy Awards. Ia adalah putri kandung dari aktor senior, Jon Voight. Ia memulai karier aktingnya pada tahun 1980-an.  " />
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>
+
